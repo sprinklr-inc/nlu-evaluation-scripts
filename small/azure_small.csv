@@ -1,0 +1,1076 @@
+tell me time of alarm you set,alarm_query,1.0
+list all of my alarms,alarm_query,1.0
+alarm settings,alarm_set,0.73
+what alarms are set for today,alarm_query,1.0
+please see see for me the alarms that you have set sunday morning,alarm_query,1.0
+tell me when the next alarms are for,alarm_query,1.0
+please tell me what alarms are on,alarm_query,1.0
+please list all my alarms,alarm_query,1.0
+what alarms are set right now,alarm_query,1.0
+check whether i have set any alarms for tomorrow morning,alarm_query,0.55
+tell me about my alarms,alarm_query,1.0
+do i have any alarms set,alarm_query,0.99
+is there an alarm at four am,alarm_set,1.0
+show me my alarms,alarm_query,1.0
+what alarm time had you set,alarm_query,0.93
+can you tell me what alarms i have set,alarm_query,1.0
+please let me know the morning alarm time kept for weekends,alarm_set,0.39
+what time is the alarm set for tomorrow,alarm_query,0.87
+may i know the about alarm you set,alarm_query,0.98
+disable the alarm which is set at nine thirty pm,alarm_remove,0.96
+delete scheduled alarm,alarm_remove,1.0
+turn off my first alarm,alarm_remove,0.98
+please cancel all alarms for tomorrow,alarm_remove,1.0
+please delete the wednesday evening alarm,alarm_remove,1.0
+please delete my morning alarm,alarm_remove,1.0
+remove all of my alarms,alarm_remove,1.0
+cancel alarm,alarm_remove,1.0
+delete the alarm i just set,alarm_remove,1.0
+could you please remove the set of alarms between eight and nine,alarm_remove,1.0
+please turn off the alarm,alarm_remove,0.89
+set an alarm for nine am,alarm_set,1.0
+change alarm to start at midnight,alarm_remove,0.85
+alarm ten am,alarm_set,1.0
+set an alarm for me for tomorrow,alarm_set,0.74
+set an alarm for twelve,alarm_set,1.0
+set a timer at five am seven days a week,alarm_set,0.43
+i need to set an alarm for next friday at noon,alarm_set,0.98
+please sound an alarm three hours before a scheduled event,alarm_set,1.0
+can you set an alarm for seven am,alarm_set,1.0
+alert me at ten am please,alarm_set,1.0
+set the alarm to seven am for work,alarm_set,0.99
+wake up time,alarm_set,0.88
+change my alarms to mountain time,datetime_convert,0.53
+set up each day an alarm at ten time for my meal,alarm_set,0.99
+please set an alarm clock for my next meeting with the team at three pm next friday,alarm_set,0.97
+set my alarm for six am,alarm_set,1.0
+set an alarm for this eight hundred pm this evening,alarm_set,1.0
+set alarm at six thirty am,alarm_set,1.0
+make me a wake up alarm for eight forty five am,alarm_set,1.0
+could you please lower the tone,audio_volume_down,0.99
+please talk softer,audio_volume_up,0.56
+lower the speak volume,audio_volume_down,1.0
+it is too loud decrease the volume,audio_volume_down,1.0
+Turn down volume,audio_volume_down,0.99
+reduce volume,audio_volume_down,1.0
+lower the volume to twenty,audio_volume_down,0.98
+lower volume by fifty percent,audio_volume_down,0.98
+quiet please,audio_volume_mute,0.99
+mute sound from speakers,audio_volume_up,0.99
+please mute for five minutes,audio_volume_mute,1.0
+mute my speakers for a minute here i need to make a call,audio_volume_mute,0.41
+mute speaker,audio_volume_up,0.94
+silence volume on speakers,audio_volume_down,0.97
+turn off media volume,audio_volume_down,0.83
+i need you to be quiet until tomorrow,audio_volume_mute,0.97
+go to sleep,audio_volume_mute,0.99
+no notifications for five minutes,audio_volume_mute,0.81
+turn off the sound,audio_volume_up,0.53
+mute the music,audio_volume_mute,0.89
+pause for ten seconds,audio_volume_mute,1.0
+set mute for twenty minutes,audio_volume_mute,0.99
+i need to mute the speaker,audio_volume_up,0.99
+could you speak a little more softly,audio_volume_up,0.99
+turn it up,audio_volume_up,0.51
+just increase the volume a little,audio_volume_up,1.0
+olly turn the volume up,audio_volume_up,1.0
+raise volume to level seven on music player,audio_volume_up,1.0
+i want the speakers turned up high,audio_volume_up,0.99
+rise volume,audio_volume_up,1.0
+please increase the volume of the music hips don't lie,audio_volume_up,0.99
+raise the volume of my music player by fifty percent,audio_volume_up,0.74
+speak as loud as you can,audio_volume_up,1.0
+increase volume please,audio_volume_up,1.0
+make this a bit louder,audio_volume_up,1.0
+increase volume to fifty percent,audio_volume_up,0.92
+when is the school dance junction marked,qa_factoid,0.95
+what is my schedule for tomorrow,calendar_query,1.0
+am i available at five pm on sunday,calendar_set,0.51
+do i have any notifications from social media,social_query,1.0
+what do i have scheduled for next week,calendar_query,1.0
+tell me the meetings i have for the week,calendar_query,1.0
+do i have any openings on my schedule for tomorrow,calendar_query,0.99
+do i need to pick up the kids from anything today,general_explain,0.81
+is there anything i need to be aware of,general_dontcare,0.49
+do i have any undone tasks,calendar_query,0.75
+what is left for today,qa_maths,0.29
+list out my upcoming events,calendar_query,1.0
+one thousand two hundred and thirty pm already you will have a meeting in ten mins,calendar_set,0.98
+is the meeting scheduled for tomorrow,calendar_query,0.99
+when the birthday will be,datetime_query,0.98
+when is my next appointment and who do i contact to reschedule,calendar_query,0.92
+what is the plan for tonight,calendar_query,1.0
+what day of the week is my birthday this year,datetime_query,0.79
+what is my schedule for june fourteenth two thousand and seventeen,calendar_query,0.99
+remove the next event on my calendar,calendar_remove,1.0
+format the calendar,calendar_remove,0.86
+remove the board meeting and reschedule for next wednesday,calendar_remove,0.97
+delete event from mine,calendar_remove,0.99
+cancel the event valentine's day from the calendar,calendar_remove,1.0
+remove my meeting today at one pm,calendar_remove,0.97
+i no longer need to see the doctor can that event be removed,calendar_remove,0.95
+please remove march nineteenth's scheduled event,calendar_remove,0.99
+make sure there is no events on my calendar,calendar_query,0.8
+remove all the events on my calendar,calendar_remove,1.0
+delete my meeting event for march nineteen at one pm,calendar_remove,1.0
+remove upcoming task,lists_remove,0.92
+remove emma's birthday from events,calendar_remove,1.0
+in my calendar delete all of my golf events for the current month,calendar_remove,0.98
+erase calendar events,calendar_remove,1.0
+take lunch meeting off my calendar,calendar_set,0.87
+delete all my events for tomorrow,calendar_remove,0.92
+delete the party on june first from my calendar,calendar_remove,1.0
+can to please clear my calendar of all events,calendar_remove,1.0
+set a reminder for tomorrow evening,calendar_set,0.85
+notify me when the event is going to take place,calendar_query,1.0
+add jim and jerry to event,calendar_set,0.93
+make a repeating reminder for my yoga practice every day at noon,calendar_set,0.77
+i have a meeting with sean at four pm on wednesday can you remind me,calendar_set,0.99
+create an event gym day on monday and set it to repeat,calendar_set,1.0
+blot me all the phone calls planned for the morning of twenty three march,email_sendemail,0.35
+can you remind me about my meeting tomorrow,calendar_query,0.96
+repeat reminder for my schedule for christmas,play_podcasts,0.45
+remind me to call my grandma this Sunday,email_querycontact,0.37
+next week my uncle birthday,calendar_query,0.72
+add running to my calendar for thursday,calendar_set,0.97
+i would like to attend church every sunday at eleven am,calendar_set,0.95
+see if john is available for a meeting on Monday,calendar_set,0.95
+remind me about the meeting,calendar_set,0.81
+set the alarm in my calendar events before five mins,alarm_set,0.89
+activate a one week notification before my anniversary please,calendar_set,0.53
+could you please schedule a meeting with this person,calendar_set,1.0
+i have a meeting with al on march twenty first at ten,calendar_set,1.0
+help me make brownies,cooking_recipe,0.97
+crabmeat recipe,cooking_recipe,1.0
+it should spices,cooking_recipe,0.71
+tell how vegetable is cooked,cooking_recipe,0.97
+learn to cut potatoes correctly,cooking_recipe,0.91
+how to cook that meal,cooking_recipe,1.0
+can i get a recipe for tuna,cooking_recipe,1.0
+please cook me a hamburger,takeaway_order,0.97
+how to cook yellow rice,cooking_recipe,1.0
+i need to know how to make stuffed peppers,cooking_recipe,1.0
+how can i cook pasta,cooking_recipe,1.0
+look for different recipes,cooking_recipe,0.81
+what ingredient can be used instead of saffron,cooking_recipe,0.83
+find apple pie recipe,cooking_recipe,1.0
+do i have enough ingredients in my refrigerator,takeaway_query,0.73
+search for your favorite meal,lists_createoradd,0.51
+tell me the preparation method for chicken sixty five,cooking_recipe,0.99
+i would like it to be able to find recipes i have,cooking_recipe,1.0
+why do people use avocado seeds,cooking_recipe,0.53
+if it's eight pm on the east coast what time is it in sacramento california,datetime_convert,0.98
+if it is four pm in missouri what time is it in london,datetime_convert,0.99
+can you please change the time zone to us,datetime_convert,1.0
+which time zone are we in please change to current,datetime_convert,1.0
+please change time zone to canada,datetime_convert,1.0
+what time will it be locally at nine am bangalore india time,datetime_convert,0.99
+it is ten am in eastern standard time what time it is now it pacific standard time,datetime_convert,1.0
+change mountain standard to pacific,iot_hue_lightchange,0.36
+please tell me the date,datetime_query,0.89
+date today,datetime_query,1.0
+what is today,news_query,0.74
+what is the time in geneva,datetime_query,1.0
+let me know the time,datetime_query,0.97
+new york time please,datetime_convert,1.0
+what is the time difference between here and dakar,datetime_convert,1.0
+let me know the time in india,datetime_query,0.99
+tell me the time in this time zone,datetime_query,0.98
+which date is on next monday,datetime_query,0.94
+tell me what time it is in dallas texas,datetime_query,1.0
+what time is it in the other time zones,datetime_query,0.51
+hey what's the current time in austin,datetime_query,1.0
+hey what is the time,datetime_query,0.99
+could you tell me what time it is,datetime_query,0.95
+what day of the week does the next holiday fall on,datetime_query,0.99
+august fifteenth is what day of the week,datetime_query,0.99
+can you tell me the date today,datetime_query,0.98
+hey what's today's date,datetime_query,0.99
+add dan's email,email_addcontact,0.99
+add contacts n mail,email_addcontact,1.0
+enter atdfd@yahoo dot com into my contact list,email_addcontact,0.99
+get apahelp@yahoo dot com in my contacts,email_querycontact,0.99
+save the email to my contact,email_addcontact,0.97
+please add johndoe@yahoocom to my contact list,email_addcontact,0.69
+add this new email,email_sendemail,0.78
+add work email address,email_addcontact,1.0
+are there any new emails from name,email_query,1.0
+give me recent emails,email_query,1.0
+refresh email,email_query,0.99
+i need to know all of the emails from contact pertaining to subject,email_query,0.88
+open email,email_sendemail,0.99
+who has sent me an email in the past week,email_query,0.98
+check emails for unread emails from mom,email_query,1.0
+did any emails come for me in the last five hours,email_query,1.0
+report what is new in my email inbox please,email_query,1.0
+what is the subject and who is the sender of my last email,email_query,0.99
+what did i tell susan in my last email,email_query,0.46
+show me all the emails received recently,email_query,1.0
+do i have any emails from jessica,email_query,1.0
+are there any recent unread emails,email_query,1.0
+do i have any new email from ryan,email_query,1.0
+carlos linux upgrade email,email_query,0.82
+my mail,email_query,0.51
+have i gotten any mail recently,email_query,1.0
+check emails,email_query,1.0
+what is sarah's number,email_querycontact,0.98
+can you give me details on john,qa_factoid,0.63
+have you responded my phone calls,email_query,0.53
+what is jeff's number,email_querycontact,1.0
+how many contacts are there named john,email_querycontact,0.93
+tell me the contact details of my brother,email_querycontact,1.0
+show mobile number of john,email_querycontact,1.0
+does contact mona has an email as well,email_query,0.44
+show number and contact email of rehan,email_querycontact,0.75
+look up for the residential address of my team leader,email_querycontact,0.7
+what is my wife's email,email_querycontact,0.62
+select the contact,email_querycontact,0.98
+is this my sisters cellphone number,email_querycontact,1.0
+how old is mary s.,email_querycontact,0.75
+did mom text me,email_query,0.81
+please let me know where david is travelling,qa_factoid,0.96
+is hayden still living on turnpike lane,qa_factoid,0.58
+add rebecca green to my list of favorite contacts,lists_createoradd,0.48
+what is jill's home phone number,email_querycontact,1.0
+send a mail to whom to talk,email_sendemail,1.0
+pull up kate's email and write that i will let her know,email_sendemail,0.96
+please reply to my boss most recent email and say that the ppt will be ready in one hour maximum,email_sendemail,0.9
+reply the email of charles with just thank you right now,email_sendemail,1.0
+send new email to jana dot litt at gmail dot com,email_sendemail,0.96
+hey please reply to last pawel's email,email_sendemail,0.99
+send email to new email address,email_sendemail,0.73
+send an email to my friend say birthday wishes,email_sendemail,1.0
+send email to mom starting with the subject vacation,email_sendemail,1.0
+jj.nzt@yahoo dot com,social_post,0.95
+email happy new year to john,email_sendemail,0.99
+tell to joe's email that come to my house in this moment i am alone,email_sendemail,0.76
+go to email and send message to,email_sendemail,1.0
+email john smith,email_sendemail,0.98
+start a new email to george brown,email_sendemail,0.99
+send a replay email,email_sendemail,1.0
+send reply to joe,email_sendemail,1.0
+email tom the date and time of tomorrow's meeting,email_sendemail,1.0
+add mail id subject content,email_addcontact,1.0
+fantastic response.,social_post,0.51
+yeap you've gotten my instructions perfectly.,general_affirm,0.97
+yeah wonderful response.,general_affirm,1.0
+yeah exact response to the command.,general_affirm,1.0
+yeah perfect response to command.,general_affirm,1.0
+yeah excellent.,general_affirm,1.0
+yeah exactly.,general_affirm,1.0
+perfect response to command.,general_affirm,0.79
+yes you have got my instructions perfectly.,general_affirm,0.65
+yeah you understood command correcly.,general_affirm,1.0
+yeah wonderful response to command.,general_affirm,0.99
+strongly agree.,general_affirm,0.89
+yeap it is confirmed.,general_affirm,1.0
+you got the command right.,general_affirm,0.99
+yeah strongly agree.,general_affirm,1.0
+yeah fantastic.,general_affirm,1.0
+yes you've understood my instructions exactly.,general_affirm,0.97
+yeap your understanding was confirmed.,general_affirm,0.84
+yeah that is correct.,general_affirm,1.0
+i would like you just stop it.,general_commandstop,1.0
+will you please shut down.,general_commandstop,1.0
+olly that's enough, just stop it.,general_commandstop,1.0
+olly can you stop it.,general_commandstop,1.0
+olly please would you stop.,general_commandstop,1.0
+please shut up.,general_commandstop,0.97
+i like you cancel.,general_commandstop,0.99
+will you just stop it please.,general_commandstop,1.0
+would you cancel it please.,general_commandstop,1.0
+olly can you shut down.,general_commandstop,1.0
+olly that is enough, just stop it.,general_commandstop,1.0
+olly will you cancel please.,general_commandstop,1.0
+will you stop.,general_commandstop,1.0
+that's all, cancel it.,general_commandstop,0.98
+olly shut down please.,general_commandstop,1.0
+olly can you just stop.,general_commandstop,1.0
+will you cancel it.,general_commandstop,0.99
+olly please can you shut up.,general_commandstop,1.0
+olly i want you cancel.,general_commandstop,1.0
+would you confirm the question.,general_confirm,1.0
+could you check my last question.,general_explain,0.98
+will you check and confirm command please.,general_confirm,1.0
+please will you check it.,general_confirm,1.0
+could you check and confirm what i last said please.,general_confirm,1.0
+will you please check it.,general_confirm,1.0
+please can you confirm the question.,general_confirm,1.0
+check the details please.,general_confirm,1.0
+can you confirm it.,general_confirm,1.0
+please can you confirm it.,general_confirm,1.0
+can you check and confirm the question please.,general_confirm,1.0
+i like you check question please.,general_confirm,1.0
+did you get what just said correctly?,general_confirm,1.0
+did you get what said correctly?,general_confirm,1.0
+i like you to check and confirm what i said please.,general_confirm,1.0
+would you please confirm the instruction.,general_confirm,1.0
+check and confirm my last question please.,general_confirm,0.87
+will you check and confirm the instruction please.,general_confirm,1.0
+can you check last thing said please.,general_confirm,0.99
+i would not mind, olly.,general_dontcare,0.99
+wouldn't mind for any one.,general_dontcare,1.0
+does not matter for me, olly.,general_dontcare,1.0
+don't really bother, olly.,general_dontcare,0.87
+wouldn't really know, olly.,general_negate,0.51
+i have no idea about what to do, olly.,general_dontcare,1.0
+i do not mind for whatever.,general_dontcare,1.0
+any one is good, olly.,general_praise,0.99
+it does not matter to me, olly.,general_dontcare,1.0
+i would not mind to select any one.,general_dontcare,1.0
+i do not really mind for whatever.,general_dontcare,1.0
+this is unimportant for me.,general_dontcare,0.99
+i would not mind to select any one, olly.,general_dontcare,0.92
+does not matter for me.,general_dontcare,1.0
+any one is good to me.,general_dontcare,0.76
+this is unimportant, olly.,general_dontcare,0.9
+wouldn't really mind for whatever.,general_dontcare,1.0
+have no idea regarding to what to select, olly.,general_dontcare,0.87
+does not matter, olly.,general_dontcare,0.99
+would you clarify me on your answer further please.,general_explain,0.99
+s2, i can not understand that.,general_explain,0.99
+your words is not so clear.,general_explain,1.0
+s1, explain further please.,general_explain,1.0
+s2, i am unclear about what you have just said.,general_explain,1.0
+please will you clarify me more on that.,general_explain,1.0
+will you rephrase me about your response once again please.,general_explain,0.99
+again clarify me on your answers.,general_explain,0.99
+again elaborate.,general_repeat,0.42
+couldn't understand what you just said now.,general_explain,1.0
+can you again clarify what you've said please.,general_explain,0.99
+i didn't get your response.,general_explain,0.93
+s1, could you please again rephrase me about what you said now.,general_explain,1.0
+what you said now was not clear.,general_negate,0.6
+can you explain once again.,general_explain,0.99
+do not get this.,general_negate,0.72
+s1, explain me on your answer further please.,general_explain,1.0
+s2, i do not catch up with you.,general_explain,1.0
+didn't understand what you said now.,general_explain,0.92
+tell me random joke,general_joke,1.0
+find me a joke related to baseball,general_joke,0.52
+i need to be cheered up right now can you tell me a good joke,general_joke,1.0
+today's jokes,general_joke,1.0
+do you have a joke,general_joke,1.0
+what's your favorite joke,general_joke,1.0
+look for a joke,general_joke,1.0
+do you know what a joke is,general_joke,1.0
+i want a nerd joke,general_joke,1.0
+what about this joke,general_joke,1.0
+have any jokes,general_joke,1.0
+joke please,general_joke,1.0
+thanks but i think you don't understand this correctly.,general_negate,0.55
+sorry but i think you've got that not right.,general_negate,1.0
+i didn't say it.,general_explain,0.98
+shit, not right.,general_negate,1.0
+i think it is not correct response.,general_negate,0.92
+thanks but you have understood this wrongly.,general_negate,0.47
+wait, i think that's not the right answer.,general_negate,0.82
+that wasn't right.,general_negate,1.0
+oops, you're not correct.,general_negate,1.0
+wait, you did not interpret command right.,general_explain,0.74
+you have done a wrong thing.,general_negate,1.0
+wait, this is not the correct answer.,general_negate,0.98
+thanks but i think you do not get me.,general_praise,0.6
+no, this is not what i am looking for.,general_negate,0.39
+uhh no, incorrect command.,general_negate,1.0
+i think you don't get answer right.,general_negate,0.89
+i think you did a task all wrong.,general_negate,0.99
+uh no, you did not understand what i am searching for.,general_negate,0.99
+i am sorry but i think it was not the correct answer.,general_negate,0.83
+you are my hero, thank you very much, olly.,general_praise,1.0
+you have done it correctly thanks, olly.,general_praise,1.0
+ah that's nice one.,general_praise,0.98
+you rock, thank you very much, olly.,general_praise,1.0
+fantastic job, you did well.,general_praise,1.0
+that's good, thanks.,general_praise,1.0
+appreciate your answers, olly.,general_praise,0.95
+you are my star, thank you so much, olly.,general_praise,0.94
+that was cool, i appreciate it.,general_praise,0.98
+fantastic job, you've done well, olly.,general_praise,1.0
+great work, you did well, olly.,general_praise,1.0
+that is cool, thanks, olly.,general_praise,1.0
+thank you for the response, olly.,general_praise,0.99
+you've done it right.,general_affirm,0.98
+well done, appreciated.,general_praise,1.0
+excellent work, you have done well.,general_praise,1.0
+awesome job, you did well.,general_praise,1.0
+it's great one, thank you very much.,general_praise,1.0
+it's helpful, appreciated.,general_praise,1.0
+today i had a lunch with my longtime sweetheart play me a nice song to the mood,music_likeness,0.95
+what's on tv,recommendation_movies,0.7
+is the data prefers any problems in objects,general_dontcare,0.91
+your salary,qa_currency,0.4
+overall day,datetime_query,0.54
+anything i need to know,general_quirky,0.56
+is mile marker sixty five where the hanging tree is located,qa_factoid,0.92
+tell me what happens when we die,general_quirky,0.33
+what is your country,qa_factoid,1.0
+do i need to spare washing my car today,iot_cleaning,1.0
+this brings some problems to us,social_post,0.5
+can you explain me the problems when the syria becomes more stronger than america,general_quirky,0.86
+you are chatbot,social_query,0.38
+how high is the quality of this stone,qa_factoid,0.41
+can you please tell me who are you,email_querycontact,0.79
+where did he was yesterday,qa_factoid,0.75
+have you come across any new recipes,lists_createoradd,0.71
+how did your day go,general_quirky,0.65
+give me the product review from gamespot about the nintendo switch,audio_volume_up,0.23
+let's start over please.,general_explain,0.66
+please say one more time again.,general_repeat,1.0
+i would like to hear that information spoken again.,general_repeat,1.0
+i would like to hear the last one spoken again.,general_repeat,1.0
+i'd like to hear the last spoke again.,general_repeat,1.0
+i need to hear what you've said again.,general_repeat,0.98
+retry please.,general_repeat,1.0
+will you try what i have just said one more time please.,general_repeat,1.0
+would you tell me one more again please.,general_repeat,1.0
+would you tell me once again.,general_repeat,1.0
+could you tell me the last one you just said again please.,general_explain,0.79
+i want to hear that again.,general_repeat,1.0
+i want to hear it again.,general_repeat,1.0
+please could you tell me once more.,general_repeat,0.99
+can you try again please.,general_repeat,1.0
+say one more time again please.,general_repeat,1.0
+will you speak once again please.,general_repeat,0.99
+please say it once again.,general_repeat,1.0
+please tell me it once more.,general_repeat,1.0
+please activate my vacuum to clean the living room,iot_cleaning,1.0
+can you wake the roomba for the kitchen,takeaway_order,0.49
+please have vacuum go for one hour,iot_cleaning,1.0
+activate the vacuum,iot_cleaning,1.0
+clean the sofa with the vacuum cleaner,iot_cleaning,1.0
+have the vacuum cleaner clean the room,iot_cleaning,1.0
+hurriedly activates my robot vacuum cleaner,iot_cleaning,1.0
+begin vacuum,iot_cleaning,1.0
+remove dust with vacuum cleaner,iot_cleaning,1.0
+start vacuum bot,iot_cleaning,1.0
+start my robot vacuum cleaner by ten to eleven am daily,iot_cleaning,1.0
+activate vacuum cleaner,iot_cleaning,1.0
+turn on the roomba,iot_cleaning,0.99
+begin vacuum cleaning,iot_cleaning,1.0
+please turn on my vacuum cleaner,iot_cleaning,1.0
+how do you activate the robot vacuum cleaner,iot_cleaning,1.0
+i would like some coffee now,iot_coffee,1.0
+please make coffee at seven am,iot_coffee,1.0
+make a cup of coffee,iot_coffee,1.0
+start coffee at six am,iot_coffee,0.53
+i want some coffee now,iot_coffee,1.0
+get me some latte please,iot_coffee,1.0
+prepare my morning coffee,iot_coffee,1.0
+prepare some cups of coffee for us,iot_coffee,1.0
+can you see to it that the coffee maker is ready with my filter coffee in approximately ten minutes from now,iot_coffee,0.99
+i'd like a coffee now,iot_coffee,1.0
+can you please turn on the coffee pot to make me coffee,iot_coffee,1.0
+prepare coffee now,iot_coffee,1.0
+can you get me a cup of coffee,iot_coffee,1.0
+make a cup of coffee for me,iot_coffee,1.0
+get a cup of coffee ready now,iot_coffee,1.0
+coffee please,iot_coffee,1.0
+make me a capuccino,iot_coffee,1.0
+make me coffee at eight am,iot_coffee,1.0
+put on a pot of coffee,iot_coffee,1.0
+please make the lights natural,iot_hue_lightup,0.95
+lights to fifty percent,iot_hue_lightup,0.83
+can you change the light colors in the house,iot_hue_lightchange,1.0
+turn the lights on party mode,iot_hue_lighton,0.74
+set the mood please,general_quirky,0.57
+change the light colors,iot_hue_lightchange,1.0
+could you change the lights colour to green please,iot_hue_lightchange,1.0
+make curser adjustable position,iot_hue_lightchange,0.54
+change light color,iot_hue_lightchange,1.0
+change the light color to blue,iot_hue_lightchange,1.0
+alter the color of the lights at home,iot_hue_lightchange,1.0
+change lights to blue,iot_hue_lightchange,1.0
+can you change the living room lights to a softer color,iot_hue_lightchange,1.0
+can you set the living room lights to pink,iot_hue_lightchange,0.96
+change the color of the lights to blue,iot_hue_lightchange,1.0
+let's have a warm glow in the front room,iot_hue_lightup,0.49
+switch lights to red tone,iot_hue_lightchange,1.0
+change my light color to blue and please turn off the kitchen light,iot_hue_lightchange,0.98
+all lights colour to blue please,iot_hue_lightchange,1.0
+dim the lights at the living room,iot_hue_lightdim,1.0
+lower the light intensity,iot_hue_lightdim,0.99
+hi can you please turn lower the lights,iot_hue_lightdim,1.0
+dim the lights please,iot_hue_lightdim,1.0
+please turn down the lights,iot_hue_lightdim,1.0
+lower the lights,iot_hue_lightdim,1.0
+lower the lights in bedroom two,iot_hue_lightdim,1.0
+i want the room to be less bright,iot_hue_lightdim,0.49
+hey olly make the lights a little dimmer,iot_hue_lightup,0.97
+light is too much,iot_hue_lightdim,0.83
+reduce brightness,iot_hue_lightdim,1.0
+dim the overhead lights a tad,iot_hue_lightdim,1.0
+switch off main light,iot_hue_lightoff,0.99
+off all the lights on the right side,iot_hue_lightoff,1.0
+turn off lights in bathroom,iot_hue_lightoff,0.99
+bedroom lights off now,iot_hue_lightoff,1.0
+turn off the lights in the bathroom,iot_hue_lightoff,0.94
+please turn off the lights in the kitchen,iot_hue_lightoff,0.99
+turn off the room light,iot_hue_lightoff,1.0
+power off the current,iot_wemo_off,0.99
+turn off lights of kitchen,iot_hue_lightoff,1.0
+by main power off,iot_wemo_off,0.98
+turn off the upstairs bathroom light,iot_hue_lightoff,0.98
+please turn off my patio lights,iot_hue_lightoff,1.0
+turn the lights off please,iot_hue_lightoff,1.0
+can you make sure the kitchen light is off,iot_hue_lightoff,0.88
+could you turn the light off,iot_hue_lightoff,1.0
+turn the living room's light off,iot_hue_lightoff,1.0
+switch off the lights,iot_hue_lightoff,1.0
+can you turn off my desk lamp,iot_hue_lightoff,1.0
+turn the left light off,iot_hue_lightoff,0.56
+please turn on all lights,iot_hue_lighton,0.99
+please turn on the lights,iot_hue_lighton,1.0
+it's dark in the living room,iot_hue_lighton,0.95
+light up,iot_hue_lightup,1.0
+lighten the light,iot_hue_lightup,0.98
+i need the lights in here to be turned up to seven,iot_hue_lighton,0.99
+increase brightness by twenty percent,iot_hue_lightchange,0.6
+increase the light in the room,iot_hue_lightup,1.0
+can you turn up the lights,iot_hue_lightup,0.97
+i would like all the lights on when i enter,iot_hue_lighton,0.99
+please arrange to make all lights to show brighter,iot_hue_lightup,1.0
+brighten living room lights,iot_hue_lightup,0.84
+raise all the lights on,iot_hue_lighton,0.99
+raise the lights,iot_hue_lightup,1.0
+brighten the light at seventy percent,iot_hue_lightup,0.97
+increase,audio_volume_up,0.6
+brighten the lights,iot_hue_lightup,0.99
+deactive the socket,iot_wemo_off,1.0
+turn off the rice cooker socket,iot_wemo_off,0.98
+power off wemo plug socket,iot_wemo_on,0.62
+please switch off on the wemo plug socket,iot_wemo_off,1.0
+shut the smart socket down,iot_wemo_off,1.0
+i do not want to use the socket anymore,iot_wemo_off,0.99
+turn off my smart plug in thirty minutes,iot_wemo_off,1.0
+turn off wifi when you leave home to save power,iot_wemo_off,0.86
+please turn off my smart plug socket,iot_wemo_off,1.0
+turn on the wemo plug socket to connect my charger to it,iot_wemo_on,1.0
+turn on the plug,iot_wemo_on,1.0
+on all the button on dashboard,lists_query,0.59
+toggle wemo plug socket on,iot_wemo_on,0.92
+wemo on,general_quirky,0.6
+start new smart socket,iot_wemo_on,0.44
+make the wemo go on,iot_wemo_on,0.54
+create a list of monthly groceries to be bought,lists_createoradd,1.0
+create a list of books to be ordered,lists_createoradd,0.92
+create a blank list,lists_createoradd,0.98
+add to list,lists_createoradd,0.99
+add these documents to the things i need to travel with,lists_createoradd,0.87
+start a new list,lists_createoradd,1.0
+create a new to do list,lists_createoradd,1.0
+search the item,lists_createoradd,0.6
+create a new shopping list,lists_createoradd,1.0
+start new list,lists_createoradd,1.0
+i need to set up a new list,lists_createoradd,1.0
+remind me to buy jeans on my shopping list,lists_createoradd,0.89
+add cereal to my shopping list,lists_createoradd,1.0
+i need to make a list,lists_query,1.0
+please add item to list,lists_createoradd,1.0
+make a new list of dog breeds,lists_createoradd,1.0
+add item,lists_createoradd,0.98
+make a catalogue,lists_createoradd,0.96
+put this on my list,lists_query,0.99
+open google keep,social_query,0.87
+what is the list type,lists_query,0.98
+what list did i make today,lists_query,1.0
+did i put toothpaste on my pick up list,lists_createoradd,0.87
+please show me lists,lists_query,1.0
+groceries list,lists_createoradd,0.97
+tell me my lists,lists_query,1.0
+how many items are on my list,lists_query,0.99
+tell me the names on the list,lists_query,0.9
+show the list that are available with numbers,lists_query,0.97
+please tell me what lists i have made,lists_query,1.0
+most viewed list,lists_query,0.88
+what did i put down already on the walmart list,lists_remove,0.97
+can i see my lists for today,lists_query,1.0
+is there anything on my list today,lists_query,1.0
+what open lists do i have,lists_query,0.99
+what is on my playlist,lists_query,0.98
+what's on the list,lists_query,1.0
+whats the schedule for today,calendar_query,0.92
+can you remove this item from the list,lists_remove,1.0
+delete last entry,lists_remove,0.98
+remove books from list,lists_remove,1.0
+please remove my list of favorite albums,lists_remove,1.0
+please delete what i just typed,lists_remove,0.96
+take bread out from the shopping list,takeaway_order,0.65
+change that off the list,lists_remove,0.96
+remove the list of apps which started with letter a,lists_remove,1.0
+remove this from the list,lists_remove,1.0
+get rid of peas,lists_remove,0.48
+remove item three from the list,lists_remove,1.0
+take grocery buying off of the list,lists_remove,0.57
+i don't have enough money to buy the nintendo switch right now can you please remove it on my amazon wishlist,iot_wemo_off,0.33
+i want to remove apples from list,lists_remove,1.0
+please remove this item from the list,lists_remove,1.0
+delete item,lists_remove,1.0
+remove item four,lists_remove,0.99
+get rid of mike stein from contacts list,lists_remove,0.93
+delete my grocery list in my notes,lists_remove,1.0
+save this song in my favorites,music_likeness,1.0
+please rate this song five stars please,music_likeness,0.99
+i like alt rock music,music_likeness,1.0
+add song to running list,music_likeness,0.9
+i like to be it,general_quirky,0.63
+add this channel to pandora,play_radio,0.98
+this song should be on my playlist,music_likeness,0.53
+i like it,music_likeness,0.95
+add this song to favorites playlist,music_likeness,0.95
+i favorite singer is arijit singh find his voice on radio,qa_factoid,0.6
+i really enjoy this song,music_likeness,1.0
+i'd like you to remember that i like this song,music_likeness,1.0
+what is in my favorites music folder,lists_query,0.61
+please save the current song to favorites,music_likeness,1.0
+all i ever want to hear is rap,play_music,0.94
+the song you are playing is amazing,music_likeness,0.93
+please thumbs up this song,music_likeness,0.98
+remember that this song is good but too slow to exercise to,audio_volume_up,0.3
+who is the song writer,music_query,0.99
+please give me detail of o zaalima song,music_likeness,0.86
+give me the details on elton john,qa_factoid,0.99
+what movie is this song from,music_query,1.0
+when did pop it like it's hot come out,takeaway_query,0.37
+what is the name of the singer,music_query,0.98
+who is singing this song,music_query,0.96
+i want to know what song has the phrase stairway to heaven in it,music_query,0.62
+where can i find this song,music_query,0.98
+song info,music_query,0.87
+what list is available for my favorite music from ed sheeran,music_query,1.0
+who is this,qa_factoid,0.67
+list of playback of ar rahman collections,music_query,0.72
+what music is this,music_query,1.0
+what music service has some soul music i can listen to,music_query,0.95
+which songs do i listen to most,music_query,1.0
+can you locate some gospel music for me,music_query,1.0
+tell me the name of this music,music_query,1.0
+music traking,music_settings,0.63
+shuffle this playlist,music_settings,1.0
+repeat this song when it ends,play_music,0.86
+cut the songs in this musics,music_settings,0.94
+repeat previous song,general_repeat,0.58
+please repeat that music again of akon,general_repeat,0.56
+repeat this song,play_music,0.68
+repeat same song for ten times,play_music,0.93
+add newscast time to daily schedule,play_podcasts,0.55
+what were the cities affected by the earthquake,qa_factoid,0.5
+head lines today from news,news_query,0.99
+what is the seattle city council doing about homelessness,recommendation_events,0.59
+find me any news from so clean the last six hours,news_query,1.0
+what is the latest headline news from this newsource,news_query,1.0
+could you please find me the latest news from a source that i do not usually go to,news_query,0.98
+please keep tabs on how the presidential debates are going,calendar_query,0.46
+what's happening around the world,news_query,0.63
+i want to know everything that breaks about the dam breaking in california,qa_factoid,0.51
+what is the latest news about obamacare,news_query,0.95
+show news of migration,news_query,0.99
+find new trump articles but not from fox news,news_query,1.0
+what's the latest news from xinhua,news_query,1.0
+find me info on cars,transport_taxi,0.56
+Show me news from cnn,play_radio,0.71
+what is the current state of brexit negotiations,general_explain,0.65
+fast me the news of academy awards,news_query,0.9
+i want the news about academy awards,lists_query,0.32
+i want to hear more audiobook,play_audiobook,1.0
+pause resume,play_audiobook,0.45
+resume my audio book from karl pilkington,play_audiobook,1.0
+book please,transport_ticket,0.39
+start playing american gods where i last stopped,play_music,0.9
+play from my last session of joes book,play_audiobook,1.0
+open audio book history of rome,play_audiobook,1.0
+start audiobook the time traveller,play_audiobook,1.0
+resume animal farm,general_quirky,0.67
+can you play file,play_audiobook,0.95
+audio,audio_volume_up,0.8
+start from my last session of joes book,play_audiobook,0.99
+play from this point from this audiobook,play_audiobook,1.0
+resume my audiobook where we paused last,play_audiobook,1.0
+resume the last kingdom for me,qa_factoid,0.52
+end pause on audio book history of rome,play_audiobook,0.77
+i want to finish listening to the book one thousand nine hundred and eighty four from where i left off,play_audiobook,0.91
+keep reading,play_audiobook,0.95
+can you play my favorite audio book of tarzan,play_audiobook,0.91
+play for me the game temple run,play_game,1.0
+i want to play solitare with you,play_game,0.89
+can we play twenty questions,qa_maths,0.99
+give me a company for playing football,social_query,0.27
+my games to play in my phones,play_game,1.0
+let's play,play_game,0.84
+play tennis for me,play_game,1.0
+lets play poker,play_game,1.0
+anyone for tennis,play_game,0.87
+play pong against me,play_game,1.0
+play solitaire,play_music,0.9
+we should play nfs at high speed,audio_volume_up,0.6
+can we play a game of hangman,play_game,1.0
+do you want to play monopoly with me,play_game,1.0
+bring up papa pear saga,lists_createoradd,0.74
+play checkers with me,play_game,1.0
+fight me in street fighter,play_game,1.0
+paper scissors or stone,iot_cleaning,0.16
+start poker game with me,play_game,0.99
+play music i have liked,play_music,0.99
+i would like to hear the theme song to this is us,music_likeness,0.96
+play the list from my favorites,lists_query,0.6
+put poker face by lady gaga next in the play queue,play_game,0.59
+turn on the tunes,play_music,0.87
+rock,music_likeness,0.86
+play jumper by third eye blind,play_game,1.0
+play music playlist,music_settings,0.8
+please turn on my music,play_music,0.58
+play my rap playlist,music_settings,0.93
+after this song play atmosphere,audio_volume_mute,0.63
+play true love next,play_music,0.99
+play hip hop songs,play_music,0.97
+hey play crazy by britney spears,music_query,0.83
+play marvin gaye i want you,play_music,1.0
+play tonic,play_music,0.91
+play jingle bells next,play_music,1.0
+open jazz,music_settings,0.49
+play all third day,calendar_set,0.89
+play fishing podcasts that are favorited,play_podcasts,0.96
+play podcast for the philadelphia eagles content,play_podcasts,1.0
+play me the new podcast from npr,play_podcasts,0.98
+keep playing the episodes in order,play_podcasts,0.85
+play next episode,play_podcasts,1.0
+play my play list,play_music,0.47
+play favorites listed in podcasts starting with first one,play_podcasts,0.89
+play previous episode,play_podcasts,1.0
+play my favourite podcasts,play_podcasts,0.99
+get the next episode,play_podcasts,1.0
+please start the next podcast episode,play_podcasts,1.0
+please play next episode of podcast,play_podcasts,1.0
+show me podcasts,play_podcasts,1.0
+can you play back to december,play_music,0.27
+can you please download my podcast file available in internet and play it once,play_podcasts,0.91
+skip this episode,general_explain,0.55
+skip this one,general_explain,0.64
+what are my top played podcasts,play_podcasts,0.54
+go back to previous episode of podcast,play_podcasts,1.0
+play radia,play_music,0.62
+play nine hundred and seventy one,play_music,0.45
+play the radio,play_radio,1.0
+turn on the local radio,play_radio,1.0
+please turn on the sean hannity show on am,play_radio,0.65
+play national public radio,play_radio,1.0
+play one thousand and thirty seven fm,play_music,0.34
+show me upcoming programmes on one hundred and five point one,play_podcasts,0.42
+load sirius and play a rock and roll show,calendar_set,0.58
+tune into the nearest english fm station,play_radio,1.0
+please play some songs for kids,play_music,0.98
+find joel osteen's broadcast on sirius,play_radio,0.95
+please go to the local sports talk show on the radio,play_radio,0.98
+play alex jones in radio,play_radio,1.0
+play radio javan,play_radio,1.0
+press play on the radio,play_radio,1.0
+play my rock station on pandora,play_radio,0.95
+play music radio for me,play_radio,1.0
+play me a radio channel for trance music,play_radio,1.0
+what is the most current exchange rate in china,qa_currency,1.0
+if i have five dollars how many rupies is that,qa_currency,0.94
+how much is dollars american worth in yen,qa_currency,1.0
+convert euros to dollars,qa_currency,1.0
+how much is ten dollars in euros,qa_currency,1.0
+how much is b. p. in u. s. d.,qa_factoid,0.74
+what's the value of the euro relative to nzd,qa_currency,1.0
+exchange rate of euro with dollar,qa_currency,1.0
+how much money in us would i need to have a thousand pesos,qa_currency,0.88
+u. s. d. to g. b. p.,qa_stock,0.84
+i have ten us dollars how many canadian dollars do i have,qa_currency,0.8
+how much is the us dollar worth in canada,qa_currency,1.0
+what is the exchange rate between the us and canada,qa_currency,1.0
+how much indian rupees per u. s. d. today,qa_currency,1.0
+how many g. b. p. can i get for one dollar,qa_stock,0.74
+give me the exchange rate for dollar in euros,qa_currency,1.0
+how much australian dollars one can buy for one pound sterling,qa_currency,1.0
+and the pound is doing how badly against the euro,qa_currency,0.99
+what is the exchange rate between money i'm the united states and switzerland,qa_currency,1.0
+please define forensic,general_quirky,0.26
+tell about the origin of the word evolution,qa_factoid,0.85
+what's the definition of diverse,iot_hue_lightchange,0.5
+what is love,general_quirky,0.93
+what is a trebuchet,qa_definition,1.0
+what do you know about the statue of liberty,qa_factoid,0.51
+google definition for me,qa_definition,0.33
+Define economics,general_quirky,0.98
+what does h2o stand for,general_quirky,0.78
+meaning of word,qa_maths,0.31
+please tell me the definition of home,qa_definition,0.58
+how would you define a car,qa_definition,0.55
+look up animal and give me the definition,qa_definition,0.77
+describe a rotor,general_quirky,0.4
+define the moon for me,email_querycontact,0.53
+define flabbergasted,general_quirky,0.95
+find the meaning of promise,qa_factoid,0.45
+define rumplestiltskin,qa_factoid,0.61
+what does a grapefruit look like,qa_definition,0.99
+what year what the eiffel tower built,qa_factoid,0.98
+when does the super bowl officially start,play_game,0.43
+how many months in a year,datetime_query,0.89
+how many pages long is harry potter,qa_factoid,0.94
+where do cows come from,qa_factoid,0.96
+where is italy,qa_factoid,0.84
+give me the birth date of mahatma gandhi,qa_factoid,0.98
+which continent has highest growth of cotton and what is average production,qa_factoid,0.57
+when is shakira's birthday,email_querycontact,0.37
+please tell me about the historic facts about india,qa_factoid,0.97
+how old is emma watson newest boyfriend,qa_factoid,0.87
+who assassinated lincoln,qa_factoid,0.88
+tell me when will indians economy touch that of americas,qa_factoid,0.6
+info on lisa ann please,qa_factoid,0.94
+calculate distance from boston to new york,transport_query,0.98
+what year did george clooney start acting,qa_factoid,1.0
+tell me who will win the next presidential election,calendar_query,0.28
+what is the capital of new hampshire,qa_factoid,1.0
+name the capital of nigeria,qa_factoid,1.0
+two by two is,qa_maths,1.0
+fifteen plus twenty,qa_maths,1.0
+divide two hundred by four,qa_maths,1.0
+what is one plus one,qa_maths,1.0
+is one divisible by three,qa_maths,1.0
+convert ten inches to centimeters,qa_maths,0.8
+what is the answer to this math question,qa_maths,0.84
+three times two equals six,qa_maths,1.0
+how many inches make one feet,qa_factoid,0.72
+what is the square root of four,qa_maths,0.99
+can you add up thirteen plus five plus nine for me,qa_maths,1.0
+what is twenty percent of one hundred and twenty,qa_maths,0.87
+what is five divided by one,qa_maths,1.0
+what is the sum of 9 and 12,qa_maths,1.0
+what are the stock prices of target,qa_stock,1.0
+fill me in on stock symbol,qa_maths,0.76
+what is the price of stock for gm,qa_stock,1.0
+google i. b. m. stock prices,qa_stock,1.0
+how is shell s stock doing today,qa_stock,1.0
+stock price for gss energy,qa_stock,1.0
+list me the stock of apple right now,qa_stock,0.55
+stock price for sprint,qa_stock,1.0
+what is the value of apple,qa_stock,0.44
+compare the stock prices for nintendo and sony and tell me which ones are better,qa_stock,1.0
+how much did facebook stock increase last night,social_query,0.67
+what is the stock information of walmart,qa_stock,0.99
+what is now stock price of tata,qa_stock,0.99
+what is the current price of jindel stock,qa_stock,0.99
+how is coca cola stock doing today,qa_stock,0.93
+for how much is hp selling for,qa_stock,1.0
+what price are google stocks trading for,qa_stock,1.0
+is starbucks stock up or down from last quarter,qa_stock,1.0
+how much to buy stock in i. b. m.,qa_stock,1.0
+what events are coming up,calendar_query,1.0
+let me see cultural events for this weekend in palermo neighborhood,recommendation_events,1.0
+what are the concerts happening nearby,recommendation_movies,0.68
+is there any type of festival going on in town this weekend,recommendation_events,0.92
+show me painting exhibition in bay area,recommendation_events,0.91
+are there any fun things to do in seattle this weekend,recommendation_events,0.99
+what's going on,recommendation_events,0.32
+recommend an event happening in my area,recommendation_events,0.98
+what events are happening this weekend in my area,recommendation_events,0.99
+what's happening at the library this month,recommendation_events,0.99
+what is playing at the local theater right now,recommendation_movies,1.0
+what do they have going on for festivals downtown,recommendation_events,1.0
+could you list out the information on book fairs in washington dc for next week,recommendation_events,0.81
+are there any events going on downtown tonight,recommendation_events,0.99
+when is the yearly cultural event coming up,recommendation_events,0.65
+what's happening around town,recommendation_events,1.0
+What event do you suggest for me tonight,calendar_query,1.0
+what's happening in town tonight,recommendation_events,1.0
+give me the list of circus shows going on in the city right now,recommendation_events,0.96
+please tell me a shop where i can find books to buy,recommendation_locations,0.99
+where is the closest restaurant,recommendation_locations,1.0
+is there a sports bar near kansas city plaza area,recommendation_events,0.84
+where should i go eat tonight,takeaway_order,0.97
+i'm looking for a casual restaurant for a dinner date,takeaway_order,0.84
+where is the shopping mall for shirts,recommendation_locations,0.89
+what shops are near me,recommendation_locations,1.0
+when does the closest bar close,recommendation_locations,0.91
+where can i find the nearest irish pub in my area,recommendation_locations,1.0
+give me some cafes near downtown fort lauderdale,recommendation_locations,1.0
+where is the best place to buy party supplies in town,recommendation_locations,1.0
+where can i got to grab some drinks in west chester,takeaway_order,0.6
+where is the closer starbucks,takeaway_query,0.35
+what is the best hardware store near me,recommendation_locations,1.0
+where is mcdo,recommendation_locations,0.41
+can you recommend any pub in mg road,recommendation_locations,1.0
+find grocery store with an organic section near me,recommendation_locations,1.0
+is there any chinese places in benton ar,recommendation_locations,1.0
+tell me where the local shopping district is,recommendation_events,0.76
+play a movie i'll like,recommendation_movies,0.99
+what time will a movie be shown tomorrow,recommendation_movies,1.0
+what new movies available today,recommendation_movies,1.0
+suggest a good genre movie that came out recently,recommendation_movies,0.99
+please recommend a movie,recommendation_movies,1.0
+what is the highest rated movie this week,recommendation_movies,1.0
+recommend a movie for me,recommendation_movies,1.0
+do you recommend any movies that are currently playing in me area,recommendation_movies,1.0
+what is the highest rated movie now out,recommendation_movies,1.0
+what is the best movie to watch this weekend,recommendation_movies,1.0
+send a complaint to sony about this tv that quit working,social_post,1.0
+write complaint to wallmart,social_post,0.99
+please tweet about the problem i m facing with the product of company,social_post,1.0
+open gallery post video name,social_query,0.45
+complain to amazon customer service for me,social_post,0.99
+tell comcast i am still on hold,play_radio,0.99
+tweet that there was an insect in the chocolate packet,takeaway_query,0.39
+post new status,play_podcasts,0.39
+lets send a tweet,social_post,1.0
+i want to tweet a complaint on apples phone issues,social_post,1.0
+tweet to ikea costumer service the following i'm not happy with this new klm product,social_post,1.0
+tweet at quote unquote,social_post,1.0
+tweet customer service not good for lpg service in my twitter account,social_post,1.0
+comcast sucks put that on their twitter account,social_post,0.63
+tweet my complaint to @nsa,social_post,1.0
+tweet terrible service,social_post,1.0
+Hashtag loving this weather post to twitter,social_post,0.99
+send a tweet to apple that their batteries drain too fast,social_post,0.98
+complain to mcdonalds twitter about my burger,social_post,1.0
+who is doing facebook live right now,social_query,1.0
+tell me what's going on snap chat,social_query,0.76
+what's the most popular story on my facebook newsfeed,social_query,1.0
+how many notifications do i have on facebook,social_query,1.0
+please check the trending topics on twitter,social_query,1.0
+read me new post on my feed,email_query,0.4
+get me updates from kenny's facebook from the weekend,social_query,1.0
+did anyone get engaged or give birth among my online friends,social_query,0.83
+did anyone like my photo i just posted,social_query,0.64
+show me the posts of my friends in the last hour,social_query,1.0
+may i know what is trending in social media,social_query,1.0
+find updates from vicki's facebook from mardi gras day,social_query,1.0
+open social media account,social_query,1.0
+hi what is happening in twitter today,social_query,0.75
+did anyone message me on facebook,social_query,1.0
+take me to the most popular post,play_podcasts,0.45
+are there any interesting stuff happened today in my twitter,social_query,0.98
+what the highest likes on facebook,social_query,1.0
+please call china wok and order number seven,transport_taxi,0.36
+place order to pizza takeout for seven pm,takeaway_order,1.0
+can i order out,takeaway_order,0.77
+order two large pizzas and pieces of hot wings from dominoes,takeaway_order,1.0
+order me a bowl from chipotle takeout,takeaway_order,0.93
+order a pizza for me,takeaway_order,1.0
+place order for a chicken manchow soup from wangs kitchen restaurant,takeaway_order,0.89
+hey order a pizza pie with extra cheese,takeaway_order,1.0
+i want to order food,takeaway_order,1.0
+call for takeout,takeaway_order,1.0
+is there any good chinese takeout that's open late,takeaway_order,0.8
+i would like to pickup a veggie sub with a cookie from subway,takeaway_order,0.95
+pull up the menu for the closest mexican restaurant,takeaway_order,0.47
+what takeout places are near me,recommendation_locations,1.0
+place order of one pizza,takeaway_order,1.0
+find me the nearest chinese for delivery,takeaway_query,0.45
+order a pizza from pizza express,takeaway_order,1.0
+get me a turkey jimmy johns sub and set it to be delivered at five pm tonight,play_radio,0.84
+order a smoked meat platter from beanos,takeaway_order,1.0
+where can i order pizza for delivery,takeaway_order,1.0
+does pings do takeaway,takeaway_query,0.99
+i need to know if mr pizza delivers,takeaway_query,0.66
+what's the exact time we get food delivered once we place an order for food,takeaway_order,0.99
+how long until i receive my food,takeaway_order,0.78
+check delivery options for the restaurant,takeaway_query,0.99
+does louie's do take out,takeaway_query,0.75
+where are my takeaway order,takeaway_order,0.47
+is my order at domino's ready,takeaway_query,0.77
+hi there do you offer home delivery for orders,takeaway_query,0.82
+can they provide takeaway,takeaway_query,0.9
+restaurant order status,takeaway_query,0.99
+when is my takeaway arriving,takeaway_order,0.96
+find out if kfc delivers please,takeaway_query,1.0
+do they deliver home,takeaway_query,0.94
+please see if chili's has delivery,takeaway_query,0.93
+what is the status of my order no,takeaway_query,0.56
+please see if the restaurant chili's has delivery as an option,takeaway_query,1.0
+can they do delivery,takeaway_query,0.89
+where can i book a train ticket to oregon,transport_ticket,1.0
+navigation search,lists_createoradd,0.45
+what time does the train leave philadelphia,transport_query,1.0
+please let me know the time of train northern rail,transport_query,0.99
+directions please,transport_query,0.48
+how far away is the nearest rest stop,recommendation_events,0.85
+what are the train times for today,transport_query,1.0
+how much long until northern rail arrives at kings cross station,transport_traffic,0.6
+show me the train schedules to the metropolitan opera house,transport_query,1.0
+get route for los angles from here,transport_query,1.0
+direction to local train station,transport_query,0.98
+what is the train schedule to denver,transport_query,1.0
+how long does it take to get from here to chicago by train,transport_query,1.0
+when i should leave to office,calendar_query,0.34
+when is the train coming,transport_query,0.96
+how much time is a train to there,transport_query,0.94
+find nearest train station,transport_query,0.99
+train leaving,transport_traffic,0.66
+get me to the nearest train station,transport_query,1.0
+request a driver for uber in five minutes,transport_taxi,0.94
+order me an uber ride please,transport_taxi,0.99
+call yellow cab,transport_taxi,1.0
+find an uber that can get me to the airport now,transport_query,1.0
+book me a taxi from castle street to airport,transport_taxi,1.0
+call a taxi,transport_taxi,1.0
+book a taxi,transport_taxi,1.0
+book an uber to pick me up outside of long island bar right now,takeaway_order,0.99
+call a taxi to pick me up at work,transport_taxi,1.0
+find an uber driver available for tonight after ten pm,transport_taxi,1.0
+book me an uber,takeaway_order,0.95
+schedule an uber in twenty minutes to tesco on fifth street,transport_query,0.44
+get me a taxi to the airport right now,transport_taxi,1.0
+have a taxi pick me up,transport_taxi,1.0
+book me a uber for tomorrow night at six pm,takeaway_order,1.0
+book for me an uber taxi to carmen drive,transport_taxi,1.0
+uber,qa_factoid,0.29
+book a taxi to start from here,transport_taxi,1.0
+book me a train ticket to chicago for tomorrow morning before ten,transport_ticket,1.0
+find out the the train arrival time and book me,transport_query,0.99
+google train tickets to washington dc,transport_ticket,0.97
+book ticket for paris by train,transport_ticket,1.0
+book me a train ticket,transport_ticket,1.0
+book a train ticket to canada this evening,transport_ticket,1.0
+book me on a train leaving penn station tomorrow travelling to any city more than two hundred miles away,transport_query,0.96
+get me two train tickets from where i am now to dallas arriving before dark,transport_ticket,1.0
+book and pay for a train ticket to denver for saturday,transport_ticket,1.0
+please book a train ticket from london to manchester,transport_ticket,1.0
+google i need one train ticket to new york can you book that for me,transport_ticket,1.0
+i need to buy a train ticket,transport_ticket,1.0
+book a ticket in irctc website from sbc to mdu on may two for stored passenger list,transport_ticket,0.99
+google search booking train ticket,transport_ticket,1.0
+please purchase a amtrak ticket from las vegas nevada to lakeland florida leaving on the first of april,transport_ticket,1.0
+book the the next train ticket to chennai,transport_ticket,1.0
+find me a train ticket to boston,transport_ticket,1.0
+get me a ride on the commuter train from nj to ny,transport_taxi,0.5
+open irctc application and go to book ticket,transport_ticket,0.99
+is it possible to drive now in ohio,transport_taxi,0.71
+how is traffic in city,transport_traffic,1.0
+what is the current traffic,transport_traffic,1.0
+is there any traffic,transport_traffic,1.0
+are there are any delays on my commute,transport_traffic,0.76
+what the traffic condition outside my office,transport_traffic,1.0
+in jodhpur traffic level is very low,transport_traffic,1.0
+outside traffic status please,transport_traffic,1.0
+show me the current traffic nearby me,transport_traffic,0.97
+give information about the traffic near my location please,transport_traffic,0.99
+just how bad is traffic on my commute,transport_traffic,1.0
+how much traffic does atlanta georgia usually have,transport_traffic,0.98
+what is the traffic like right now on telegraph,play_radio,0.86
+what's the traffic this morning,transport_traffic,1.0
+accident or normal traffic,transport_traffic,0.99
+how long will it take me to get to park avenue considering current traffic,transport_traffic,1.0
+what are the traffic conditions on the one hundred and one,transport_traffic,1.0
+how's the traffic downtown,transport_traffic,1.0
+how is traffic on the highway,transport_traffic,1.0
+do i have to bring umbrella for tonight party,weather_query,0.99
+should i wear gloves tonight,weather_query,1.0
+will it rain in the noon,weather_query,0.99
+how will be the weather at night,weather_query,1.0
+will the temperature be higher than forty tomorrow,weather_query,0.99
+ask for the weather today morning,weather_query,1.0
+is summer going on,weather_query,0.44
+do you think i can wear sandals or should i wear sneakers tonight at seven pm,weather_query,0.99
+show me the weather forecast for the next three three days,weather_query,1.0
+are you sure its going to rain tomorrow,weather_query,1.0
+will i need my snow boots this afternoon,weather_query,0.97
+do i need to wear sunscreen today,weather_query,0.85
+what is the temperature today,weather_query,1.0
+what is the weather next week,weather_query,1.0
+what is the climate here today,weather_query,1.0
+let me know when the next cold front is expected,weather_query,1.0
+i am gonna need an umbrella today after sunset,weather_query,0.98
+google what is the temperature outside,weather_query,1.0
+are there any tornado warnings today,alarm_query,0.55
