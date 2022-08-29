@@ -18,25 +18,25 @@ Disclaimer:
 
 1076 Test Sentences
 
-|            | Sprinklr | Google Cloud  | Azure Language Studio | 
-|------------|----------|---------------|-----------------------|
-| Recall     | 0.867    |   0.782       |    0.789              |
-| F1 (Macro) | 0.870    |   0.799       |    0.789              |
+|            | Sprinklr | Google Cloud  | Azure Language Studio | AWS Comprehend |
+|------------|----------|---------------|-----------------------|----------------|
+| Recall     | 0.867    |   0.782       |    0.789              |     0.725      |
+| F1 (Macro) | 0.870    |   0.799       |    0.789              |     0.700      |
 
 ### Example sentence on Small models
 #### Query: is there anything i need to be aware of
 #### Ground Truth: calendar_query
-|               | Sprinklr       | Google Cloud    | Azure Language Studio | 
-|---------------|----------------|-----------------|-----------------------|
-| Intent (Pred) |calendar_query  |general_dontcare |    general_dontcare   |
-| Confidence    | 0.73           |   0.15          |    0.49               |
+|               | Sprinklr       | Google Cloud    | Azure Language Studio | AWS Comprehend |
+|---------------|----------------|-----------------|-----------------------|----------------|
+| Intent (Pred) |calendar_query  |general_dontcare |    general_dontcare   | calendar_remove|
+| Confidence    | 0.73           |   0.15          |    0.49               | 0.09           |
 
-#### Query: play my rap playlist
-#### Ground Truth: play_music
-|               | Sprinklr       | Google Cloud    | Azure Language Studio | 
-|---------------|----------------|-----------------|-----------------------|
-| Intent (Pred) |play_music      |music_query      |    music_settings     |
-| Confidence    | 0.78           |   0.34          |    0.93               |
+#### Query: is there an alarm at four am
+#### Ground Truth: alarm_query
+|               | Sprinklr       | Google Cloud    | Azure Language Studio | AWS Comprehend | 
+|---------------|----------------|-----------------|-----------------------|----------------|
+| Intent (Pred) |alarm_query     |alarm_set        |    alarm_set          | alarm_set      |
+| Confidence    | 0.7            |   0.96          |    1.0                |   0.27         |
 
 ## Large
 
@@ -44,23 +44,23 @@ Disclaimer:
 
 5518 Test Sentences
 
-|            | Sprinklr | Google Cloud  | Azure Language Studio | 
-|------------|----------|---------------|-----------------------|
-| Recall     | 0.901    |   0.836       |    0.860              |
-| F1 (Macro) | 0.903    |   0.862       |    0.860              |
+|            | Sprinklr | Google Cloud  | Azure Language Studio | AWS Comprehend |
+|------------|----------|---------------|-----------------------|----------------|
+| Recall     | 0.901    |   0.836       |    0.860              |     0.876      |
+| F1 (Macro) | 0.903    |   0.862       |    0.860              |     0.867      |
 
 ### Example sentence on Large models
 #### Query: how many countries are in the European Union
 #### Ground Truth: qa_factoid
-|               | Sprinklr       | Google Cloud  | Azure Language Studio | 
-|---------------|----------------|---------------|-----------------------|
-| Intent (Pred) | qa_factoid     |   qa_currency |    qa_maths           |
-| Confidence    | 0.72           |   0.42        |    0.34               |
+|               | Sprinklr       | Google Cloud  | Azure Language Studio |   AWS Comprehend |
+|---------------|----------------|---------------|-----------------------|------------------|
+| Intent (Pred) | qa_factoid     |   qa_currency |    qa_maths           | general_quirky   |
+| Confidence    | 0.72           |   0.42        |    0.34               | 0.30             |
 
 #### Query: let's go through all pending reminders
 #### Ground Truth: calendar_query
 
-|               | Sprinklr       | Google Cloud  | Azure Language Studio | 
-|---------------|----------------|---------------|-----------------------|
-| Intent (Pred) |calendar_query  |calendar_remove|    general_quirky     |
-| Confidence    | 0.74           |   0.85        |    0.73               |
+|               | Sprinklr       | Google Cloud  | Azure Language Studio |  AWS Comprehend |
+|---------------|----------------|---------------|-----------------------|-----------------|
+| Intent (Pred) |calendar_query  |calendar_remove|    general_quirky     | calendar_set    |
+| Confidence    | 0.74           |   0.85        |    0.73               | 0.29            |
